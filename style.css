@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.s1 {
+  background-color: rgba(249, 235, 220, 0.514);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-direction: column;
+  gap: 80px;
+  margin: auto;
+}
+.s1 .icons {
+  font-size: 27px;
+  color: #FB5849;
+}
+.s1 .text {
+  width: 25%;
+  margin-left: -590px;
+}
+.s1 .text h4 {
+  color: #FB5849;
+  font-weight: 300;
+}
+.s1 .text h4 span {
+  text-decoration: line-through;
+  color: rgba(249, 235, 220, 0.514);
+  text-decoration-color: #FB5849;
+  margin-right: 10px;
+}
+.s1 .text h1 {
+  font-weight: 900;
+  margin-right: 40px;
+  margin-top: 20px;
+  font-size: 29px;
+}
+.s1 .boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.s1 .boxes div {
+  width: 18%;
+  background-color: #FB5849;
+  height: 320px;
+  position: relative;
+}
+.s1 .boxes div img {
+  width: 100%;
+  height: 100%;
+}
+.s1 .boxes div .text1 {
+  width: 20%;
+  height: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.s1 .boxes div .text2 {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.s1 .boxes div .text2:hover {
+  height: 28%;
+  transition: 0.7s;
+  transition-duration: 0.2s;
+}
+
+.s2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-direction: row;
+  gap: 140px;
+  margin: auto;
+}
+.s2 .left {
+  width: 32%;
+}
+.s2 .left .text {
+  width: 85%;
+  margin-bottom: 30px;
+}
+.s2 .left .text h4 {
+  color: #FB5849;
+  font-weight: 300;
+}
+.s2 .left .text h4 span {
+  text-decoration: line-through;
+  color: white;
+  text-decoration-color: #FB5849;
+  margin-right: 10px;
+}
+.s2 .left .text h1 {
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 39px;
+}
+.s2 .left .boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+.s2 .left .boxes div {
+  width: 26%;
+  height: 120px;
+  background-color: #FB5849;
+}
+.s2 .left .boxes div img {
+  width: 100%;
+  height: 100%;
+}
+.s2 .right {
+  width: 35%;
+  height: 480px;
+  background-color: blue;
+  border-radius: 5px;
+  position: relative;
+}
+.s2 .right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.s2 .right .play {
+  position: absolute;
+  font-size: 70px;
+  color: #FB5849;
+  top: 45%;
+  left: 43%;
+}
+.s2 .right .play:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.s3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-direction: row;
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg);
+  gap: 80px;
+  margin: auto;
+}
+.s3 .left {
+  width: 38%;
+  color: white;
+}
+.s3 .left .text {
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+}
+.s3 .left .text h4 {
+  color: white;
+  font-weight: 300;
+}
+.s3 .left .text h4 span {
+  text-decoration: line-through;
+  color: white;
+  text-decoration-color: white;
+  margin-right: 10px;
+}
+.s3 .left .text h1 {
+  font-weight: 900;
+  margin-top: 20px;
+  font-size: 35px;
+}
+.s3 .left .boxes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  gap: 50px;
+}
+.s3 .left .boxes div {
+  width: 45%;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s3 .left .boxes div h1 {
+  color: black;
+  margin-top: 26px;
+  margin-bottom: 15px;
+}
+.s3 .left .boxes div p {
+  color: black;
+}
+.s3 .left .boxes div .circle {
+  position: absolute;
+  background-color: #FB5849;
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+  left: 5.2rem;
+  top: -2rem;
+  font-size: 24px;
+}
+.s3 .right {
+  width: 35%;
+  height: 480px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  flex-direction: column;
+}
+.s3 .right h1 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+.s3 .right .inputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.s3 .right #mesag {
+  width: 87%;
+  height: 140px;
+}
+.s3 .right input {
+  width: 40%;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.384);
+}
+.s3 button {
+  width: 92%;
+  margin-bottom: 40px;
+  padding: 10px;
+  color: white;
+  background-color: #FB5849;
+  border: none;
+  font-size: 15px;
+}
+.s3 button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: rgba(251, 88, 73, 0.6274509804);
+}
+
+@media screen and (max-width: 768px) {
+  .s1 .text {
+    margin: auto;
+    padding: 0;
+    width: 90%;
+  }
+  .s1 .boxes div {
+    display: none;
+  }
+  .s1 .boxes #N1 {
+    display: block;
+    width: 90%;
+  }
+  .s2 {
+    margin: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: auto;
+  }
+  .s2 .left {
+    width: 90%;
+  }
+  .s2 .left .boxes {
+    width: 100%;
+  }
+  .s2 .left .boxes div {
+    width: 100%;
+  }
+  .s2 .right {
+    width: 90%;
+    padding: 0;
+  }
+  .s3 {
+    flex-direction: column;
+  }
+  .s3 .left {
+    width: 90%;
+  }
+  .s3 .right {
+    width: 90%;
+  }
+  .s3 .right #mesag {
+    height: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
